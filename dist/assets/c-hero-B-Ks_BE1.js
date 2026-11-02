@@ -1,0 +1,1 @@
+var e=`/MPH-Energy-/assets/c-hero-B4YvgInj.jpg`;export{e as t};
