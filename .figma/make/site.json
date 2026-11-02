@@ -1,0 +1,10 @@
+{
+  "description": "Deploy a prototype in a single step, helping teams quickly publish and share a working version for review.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
