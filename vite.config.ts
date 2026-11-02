@@ -17,6 +17,13 @@ export default defineConfig(({ mode }) => {
     build: {
       sourcemap: emitSourcemaps ? 'inline' : false,
       minify: !emitSourcemaps,
+      rollupOptions: {
+        input: {
+          main: 'index.html',
+          optionB: 'option-b.html',
+          optionC: 'option-c.html',
+        },
+      },
     },
     plugins: [
 react(),
